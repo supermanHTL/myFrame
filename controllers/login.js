@@ -19,7 +19,6 @@ var loginRes = async (ctx, next) => {
 
 
 
-
 //定义路由和方法（get or post），以及路由对应的方法
 module.exports = {
     'GET /login': login,
