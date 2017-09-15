@@ -11,7 +11,7 @@ var loginRes = async (ctx, next) => {
         password = ctx.request.body.password || '';
     console.log(`signin with name: ${name}, password: ${password}`);
     if (name === 'htl' && password === '666') {
-        await ctx.render('htl',{title:'hahhahahah'})
+        await ctx.render('hello',{name: name})
     } else {
         await ctx.render('login/login-fail')
     }
