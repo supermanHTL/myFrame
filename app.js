@@ -25,6 +25,7 @@ app.use(views(path.join(__dirname, './views'), {
 }))
 
 
+
 /*
  * __dirname 表示当前文件夹的目录
  * */
