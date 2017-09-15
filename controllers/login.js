@@ -1,4 +1,7 @@
-
+/** 2017-09-15 20:32:48
+ *作者:黄添隆
+ *功能:
+ */
 //登录页
 var login = async (ctx, next) => {
     await ctx.render('login/login');

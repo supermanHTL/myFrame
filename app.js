@@ -16,6 +16,9 @@ const views = require('koa-views');
 const staticPath = './public';
 const ejs =  require('ejs');
 
+//打开浏览器
+var c = require('child_process');
+
 // 加载ejs模板引擎,设置view文件夹下为路由加载页，将.ejs后缀改成.html
 app.use(views(path.join(__dirname, './views'), {
     map : {html:'ejs'}
@@ -35,10 +38,10 @@ const mapRouter = require(__dirname + '/mid/router');
 app.use(mapRouter(app))  //启用该路由文件，并且把app对象传进去（用来启用bodyParser（））
 
 
-
-
-
 // 在端口8080监听:
 app.listen(8080);
+
+//node模块打开指定目录
+c.exec('start http://localhost:8080/login');
 console.log('app started at port 8080...');
 
