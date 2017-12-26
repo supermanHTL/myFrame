@@ -1,0 +1,10 @@
+<script src="https://cdn.bootcss.com/vue/2.5.9/vue.js"></script>
+<script>
+    function initPage() {
+        var deviceWidth = document.documentElement.clientWidth;
+        if(deviceWidth > 750) deviceWidth = 750;
+        var fontSize = deviceWidth / 7.5;
+        document.getElementsByTagName("html")[0].style.fontSize = fontSize + "px";
+    }
+    initPage();
+</script>

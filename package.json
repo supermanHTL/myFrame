@@ -1,31 +1,51 @@
 {
-  "name": "hello-koa2",
-  "version": "1.0.0",
-  "description": "Hello Koa 2 example with async",
-  "main": "app.js",
+  "name": "express-vue",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node app.js",
-    "o": "node app-origin.js"
-  },
-  "keywords": [
-    "koa",
-    "async"
-  ],
-  "author": "Michael Liao",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/michaelliao/learn-javascript.git"
+    "start": "node bin/www"
   },
   "dependencies": {
-    "ejs": "^2.5.7",
-    "koa": "2.0.0",
-    "koa-bodyparser": "3.2.0",
-    "koa-router": "7.0.0",
-    "koa-static": "^4.0.1",
-    "koa-views": "^6.0.2"
+    "axios": "^0.17.1",
+    "body-parser": "^1.15.0",
+    "co": "^4.6.0",
+    "compression": "^1.6.1",
+    "connect-redis": "^3.0.2",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "formidable": "^1.0.17",
+    "formstream": "^1.0.0",
+    "log4js": "^0.6.29",
+    "morgan": "^1.6.1",
+    "request": "^2.69.0",
+    "serve-favicon": "^2.3.0",
+    "socket.io": "^1.4.5",
+    "supervisor": "^0.9.1",
+    "thunkify": "^2.1.2",
+    "uglify-js": "^2.6.2"
   },
   "devDependencies": {
-    "vue": "^2.4.4"
+    "autoprefixer": "^7.2.3",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.9",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "vue": "^2.5.10",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.11",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.2",
+    "webpack-hot-middleware": "^2.21.0"
   }
 }

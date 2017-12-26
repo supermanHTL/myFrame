@@ -1,0 +1,41 @@
+@import '../glob.scss';
+
+h1 {
+  @include flex;
+  @include border;
+  height: 2rem;
+  font-size: 0.4rem;
+}
+.con {
+  width: 300px;
+  margin: auto;
+  div.info {
+    overflow: hidden;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    input {
+      height: 100%;
+      width: 77%;
+      box-sizing: border-box;
+      border: 1px solid black;
+      padding-left: 10px;
+    }
+  }
+  .sub {
+    margin-top: 30px;
+    span {
+      display: block;
+      width: 78%;
+      height: 40px;
+      margin: 0 auto;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #999;
+      border-radius: 16px;
+    }
+  }
+}

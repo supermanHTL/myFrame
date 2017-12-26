@@ -1,2 +1,2 @@
-# myFrame
-This framework will use koa2, webapck, and vue2 technologies to implement a web development framework
+# expressVueWebpack
+在express的基础上，加入vue和webpack
